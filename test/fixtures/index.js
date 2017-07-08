@@ -26,5 +26,16 @@ export default {
       this.getImage(),
       this.getImage()
     ]
+  },
+
+  getUser () {
+    return {
+      id: '7149c823-edcb-42cd-91ad-347d7d10e6bc',
+      name: 'Mauricio Serna',
+      username: 'fmauricios',
+      email: 'mauricioserf@gmail.com',
+      password: 'securepassword',
+      createdAt: new Date().toString()
+    }
   }
 }
